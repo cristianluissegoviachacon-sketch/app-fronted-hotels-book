@@ -7,7 +7,7 @@ import { Hotel } from '../interface/hotel';
 })
 export class HotelsService {
 
-  private apiUrl = 'http://localhost:8082/api/hotels/available';
+  private apiUrl = 'https://app-backend-hotel-principal-hndghccjauezchd9.canadacentral-01.azurewebsites.net/api/hotels/available';
 
   constructor(private http: HttpClient) { }
 
